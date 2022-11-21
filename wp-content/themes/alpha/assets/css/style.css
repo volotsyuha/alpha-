@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: 1080px;
+  margin: 0 auto;
+  position: relative;
+}
+
+header {
+  background: #344265;
+  padding: 18px 0 22px 0;
+}
+header .header-row {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+header .wrap {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+header .wrap .is-form-style input.is-search-input {
+  border: none !important;
+}
+header .wrap .is-search-form {
+  width: 282px;
+  height: 39px;
+}
+header .wrap .is-form-style input.is-search-input {
+  border-radius: 10px 0 0 10px;
+  padding: 8px 12px 8px 16px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+}
+header .wrap .is-search-icon {
+  border: none;
+  border-radius: 0 10px 10px 0;
+  background: #F8F8F8;
+}
+header .wrap .is-search-submit {
+  border-radius: 10px;
+}
+header .wrap #is-search-input-88 {
+  padding: 11px 16px;
+}
+header .wrap #menu-menu {
+  list-style: none;
+  display: flex;
+  padding: 28px 0 0 0;
+  margin: 0;
+}
+header .wrap #menu-menu .menu-item a {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 0 30px 0 0;
+}
+header .logo {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+header .search-form {
+  grid-column-start: 4;
+  grid-column-end: 5;
+}
+header .main-menu {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+header .wrap-block {
+  justify-content: right;
+  display: grid;
+}
+
+.phone-number {
+  position: relative;
+  margin-bottom: 15px;
+}
+.phone-number a {
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding-left: 24px;
+}
+.phone-number a::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../assets/img/phone.png);
+}
+
+.book-online {
+  position: relative;
+}
+.book-online .wp-block-button__link {
+  padding: 9px 22px 9px 49px;
+}
+.book-online img {
+  position: absolute;
+  top: 12px;
+  left: 22px;
+}
+
+.content h1 {
+  margin: 48px 0 16px;
+}
+.content .sub-title {
+  margin: 0 0 32px 0;
+}
+.content ul {
+  list-style-image: url("../../assets/img/check-mark.png");
+  padding-left: 25px;
+}
+.content ul li {
+  color: #5F719F;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  margin-bottom: 20px;
+}
+.content ul li:last-child {
+  margin-bottom: 40px;
+}
+.content .btn-content {
+  margin-bottom: 160px;
+}
+.content .btn-content a {
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 26px;
+  padding: 9px 22px 9px 20px;
+}
+.content .btn-content mark img {
+  left: 0;
+  margin-right: 9px;
+}
+.content .thumb {
+  position: absolute;
+  top: -48px;
+  right: -17%;
+}
+
+footer {
+  background: #344265;
+  padding-top: 56px;
+}
+footer .logo {
+  margin-bottom: 15px;
+}
+footer .phone-number {
+  margin: 49px 0 40px 0;
+}
+footer .footer-address .wp-block-code {
+  margin-bottom: 32px;
+}
+footer .footer-address .wp-block-code code {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  font-size: 16px;
+  color: #F8F8F8;
+}
+footer .footer-email .wp-block-code {
+  margin-bottom: 46px;
+}
+footer .footer-email .wp-block-code code {
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  color: #F8F8F8;
+}
+footer .book-online {
+  margin-bottom: 75px;
+}
+footer .copyright {
+  margin-bottom: 16px;
+}
+footer .copyright span {
+  font-size: 14px;
+  color: #F8F8F8;
+}
+footer .footer-row {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+footer .social-links ul li {
+  margin-left: 13px;
+}
+footer .wp-block-social-links.aligncenter {
+  justify-content: end;
+}
+footer .fooer-menu h4 {
+  font-weight: 800;
+  margin: 0 0 18px;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+footer .fooer-menu .menu {
+  list-style: none;
+  padding: 0;
+}
+footer .fooer-menu .menu li {
+  margin-bottom: 10px;
+}
+footer .fooer-menu .menu a {
+  font-size: 14px;
+  color: #F8F8F8;
+  text-decoration: none;
+}
+footer .fooer-menu .menu#menu-help-and-support {
+  margin-bottom: 124px;
+}
+footer .section {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
